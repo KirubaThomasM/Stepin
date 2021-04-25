@@ -18,8 +18,7 @@ void admin_panel()
 		scanf("%s",admin_login);
 		if((strcmp(admin_login,str1))!= 0)
 		{
-			printf("Wrong adminname(press any key)");
-			getch();
+			printf("Wrong adminname\n");
 			continue;
 		}
 		else
@@ -28,14 +27,12 @@ void admin_panel()
 			scanf("%s",admin_password);
 			if((strcmp(admin_password,str2)) != 0)
 			{
-				printf("\nWrong Password(press any key)\n");
-				getch();
+				printf("\nWrong Password\n");
 				goto password;
 			}
 			else
 			{
-			    printf("\n\nADMIN LOGIN SUCCESSFULL(Press Enter)");
-			    getch();
+			    printf("\n\nADMIN LOGIN SUCCESSFULL");
 			    while(1)
 			    {
 				    //clrscr();
@@ -106,7 +103,6 @@ void admin_panel()
 					    for(i=0;i<cand_count;i++)
 						{
 						    total += ((cand_list+i)->vote_count);
-							//printf("%d",total);
 						}
 					    printf("\n\n\n\t\t\t   Election statistics:\n");
 					    i=0;
@@ -116,7 +112,6 @@ void admin_panel()
 						    i++;
 					    }
 					    printf("\n\n\t\t\tVoting Percentage:%0.2f %% ",(total/voter_count)*100);
-					    getch();
 					    break;
 
 					    case '4':
@@ -124,7 +119,6 @@ void admin_panel()
 
 					    default:
 					    printf("Invalid Option");
-					    getch();
                     }
 				}
 			}
