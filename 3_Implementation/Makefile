@@ -39,6 +39,8 @@ runtests: $(EXEC_TEST)
 cleantest:
 	cd test && $(RM) *.exe && cd ..
 
+valgrind: $(EXEC) 
+	valgrind ./$(EXEC)
 
 coverage: $(SRC) $(MAIN)
 	$(CC) -fprofile-arcs -ftest-coverage $(INC) $^ -o $(EXEC) $(LINK)
