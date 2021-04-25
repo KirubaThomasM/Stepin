@@ -6,7 +6,7 @@ An application to perform election which allows us to set up a flexible and trus
 
 | Codacy | Build | Unity | Code quality | Cppcheck |
 | --- | --- | --- | --- | --- |
-| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e4bf510fb7b741c0a62b0031af5400b8)](https://www.codacy.com/gh/KirubaThomasM/Stepin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KirubaThomasM/Stepin&amp;utm_campaign=Badge_Grade) | [![C/C++ CI](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-ccp.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-ccp.yml) | [![unit tests](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-unity.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-unity.yml) | [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/KirubaThomasM/Stepin/actions/workflows/valgrind.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/valgrind.yml) | [![Cppcheck](https://github.com/KirubaThomasM/Stepin/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/cppcheck.yml) |
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e4bf510fb7b741c0a62b0031af5400b8)](https://www.codacy.com/gh/KirubaThomasM/Stepin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KirubaThomasM/Stepin&amp;utm_campaign=Badge_Grade) | [![C/C++ CI](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-ccp.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-ccp.yml) | [![unit tests](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-unity.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/c-unity.yml) | [![Valgrind](https://github.com/KirubaThomasM/Stepin/actions/workflows/valgrind.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/valgrind.yml) | [![Cppcheck](https://github.com/KirubaThomasM/Stepin/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KirubaThomasM/Stepin/actions/workflows/cppcheck.yml) |
 
 # Folder structure
 | Folder | Description |
@@ -21,7 +21,7 @@ An application to perform election which allows us to set up a flexible and trus
 # Contributors list and summary
 | PS No. | Name | Features | Issues raised | Issues solved | No. test cases | Test cases passded |
 | --- | --- | --- | --- | --- | --- | --- |
-| 256596 | Kiruba Thomas M | Application and features of the project are provided in the Requirements folder| None | None | 16 | 16 |
+| 256596 | Kiruba Thomas M | Application and features of the project are provided in the Requirements folder| None | None | 0 | 0 |
 <br/>
 
 # Challenges faced and how was it overcome
