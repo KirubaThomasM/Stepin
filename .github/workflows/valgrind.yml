@@ -1,4 +1,4 @@
-name: Valgrind
+name: Valgrind mem
 on:
   push:
     branches: [ main ]
