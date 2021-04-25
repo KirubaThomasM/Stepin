@@ -5,7 +5,7 @@
 
 void admin_panel()
 {
-	char admin_login[15],admin_password[15], ch;
+	char admin_login[15] = "Admin",admin_password[15] = "stepin", ch = '0';
 	char str1[]="Admin";
 	char str2[]="stepin";
 	int i=0,j=0, win=0, max =0;

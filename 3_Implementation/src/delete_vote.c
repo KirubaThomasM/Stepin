@@ -5,7 +5,7 @@
 
 void delete_vote()
 {
-	char voter_id[10];
+	char voter_id[10] = "\0";
 	int i=0, j=0;
 	printf("Enter the valid id to remove their vote:");
 	scanf("%s",voter_id);

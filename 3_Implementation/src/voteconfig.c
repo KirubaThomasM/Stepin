@@ -5,7 +5,7 @@
 
 void voteconfig(int voter)
 {
-	int i=0, selected;
+	int i=0, selected = 0;
 	printf("%d",(voter_list+voter)->vnv);
 	if((voter_list+voter)->vnv == 1)
 	{

@@ -5,7 +5,7 @@
 
 void student_panel()
 {
-	char voter_id[10];
+	char voter_id[10] = "\0";
 	int i=0;
 	printf("\n\n\t\t\tWelcome to Voting System\n");
 	printf("Enter your id:");

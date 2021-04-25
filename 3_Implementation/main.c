@@ -2,7 +2,7 @@
 #include "vote.h"
 int main()
 {
-	char n;
+	char n = '0';
 	//clrscr();
 	while(1)
 	{
