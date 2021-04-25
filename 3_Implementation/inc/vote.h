@@ -6,14 +6,14 @@
 #include<string.h>
 #include<stdlib.h>
 
-int cand_count = 0, voter_count = 0, voter = 0;
+int cand_count, voter_count, voter;
 //Structure that holds candidate name and count of vote
 typedef struct candidate
 {
 	char cand_name[20];
 	int vote_count;
 }CAND_t;
-CAND_t *cand_list = NULL;
+CAND_t *cand_list;
 
 typedef struct voters
 {
@@ -21,7 +21,7 @@ typedef struct voters
 	int vnv;
 	int cand_choice;
 }VOTER_t;
-VOTER_t *voter_list = NULL;
+VOTER_t *voter_list;
 
 
 void student_panel();
